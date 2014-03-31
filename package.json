@@ -1,0 +1,30 @@
+{
+  "name": "website-downloader",
+  "version": "0.0.0",
+  "description": "Simple scrpt to download an entire website (with CSS, images, JS, etc).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leeroybrun/website-downloader.git"
+  },
+  "keywords": [
+    "download",
+    "website",
+    "httrack",
+    "offline"
+  ],
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*",
+    "async": "*"
+  },
+  "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeroybrun/website-downloader/issues"
+  },
+  "homepage": "https://github.com/leeroybrun/website-downloader"
+}
