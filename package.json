@@ -1,7 +1,7 @@
 {
   "name": "website-downloader",
   "version": "0.0.0",
-  "description": "Simple scrpt to download an entire website (with CSS, images, JS, etc).",
+  "description": "Simple script to download an entire website (with CSS, images, JS, etc).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,11 @@
     "offline"
   ],
   "dependencies": {
-    "request": "*",
-    "cheerio": "*",
-    "async": "*"
+    "prompt": "~0.2.12",
+    "cheerio": "~0.13.1",
+    "async": "~0.6.2",
+    "terminal-status": "~0.0.2",
+    "delayed-request": "~0.0.3"
   },
   "author": "Leeroy Brun <leeroy.brun@gmail.com>",
   "license": "MIT",
